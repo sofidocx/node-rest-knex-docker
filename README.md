@@ -72,7 +72,7 @@ Este projeto já conta com o código necessário para subir a API em um servidor
 
 ### Instalação do projeto
 
-> **IMPORTANTE:** Se você usa Windows como sistema operacional, recomendamos fortemente o uso do WSL (Windows Subsystem for Linux) durante o curso. Caso ainda não utilize, temos um [vídeo](https://cursos.alura.com.br/extra/alura-mais/windows-subsystem-for-linux-wsl--c238) e um [artigo](https://www.alura.com.br/artigos/wsl-executar-programas-comandos-linux-no-windows) explicando seus usos e como instalar. Siga os passos de instalação e uso antes de começar com o projeto do curso.
+> **IMPORTANTE:** Se você usa Windows como sistema operacional, recomendamos fortemente o uso do WSL (Windows Subsystem for Linux) durante o curso. 
 
 Este projeto está pronto para ser executado em um ambiente Docker. Por este motivo, será necessária apenas a instalação do Docker, não sendo necessária a instalação manual do projeto via `npm install`; também não será necessária a instalação manual dos bancos de dados utilizados (Postgres e SQLite).
 
@@ -181,7 +181,6 @@ O SQLite utiliza um arquivo, normalmente de extensão `.sqlite` ou `.db`, para a
 
 O projeto já conta com uma base de dados configurada e populada com alguns dados iniciais, localizado na pasta `src/test/livraria.sqlite`. A base de testes é apagada, recriada e populada a cada teste; os scripts necessários estão no `package.json`: `prepare-test-db` e `drop-test-db`.
 
-> **IMPORTANTE:** Não será necessário modificar nenhum dos scripts de teste durante o curso.
 
 Caso queira acessar o arquivo `livraria.sqlite` para fazer consultas usando diretamente os comandos próprios do SQLite e do SQL, é possível fazer isso através do container:
 * Execute o comando `sudo docker ps` para acessar o ID do container (`curso-workflow_dev` ou semelhante);
