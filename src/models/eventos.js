@@ -27,7 +27,7 @@ class Evento {
       nome: 'lancamento',
       descricao: 'descricao',
       data: '2025-05-09',
-      autor_id: 1,
+      autor_id: 23,
       created_at: '2025-09-09 07:00:00',
       updated_at: '2025-09-09 07:00:00',
     }];
